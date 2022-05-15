@@ -1,0 +1,211 @@
+body {
+    background-color: #FB6B6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*tela inicial*/
+
+.app {
+    width: 375px;
+    height: 667px;
+  
+    border: 1px solid #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-initial {
+    width: 246px;
+    height: 54px;
+
+    background: #FFFFFF;
+    border: 1px solid #D70900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #D70900;
+}
+
+.content-slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 233px;
+    margin-top: 148px;
+}
+
+.content-slogan>img {
+    width: 136px;
+    height: 161px;
+    object-fit: cover;
+    margin-bottom: 13px;
+}
+
+.content-slogan>p {
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.012em;
+
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+/*card*/
+
+.cards {
+    height: 310px;
+}
+
+.card-user {
+
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-face-initial {
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    width: 300px;
+    height: 65px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-face-initial>ion-icon {
+    font-size: 26px;
+    padding-left: 100px;
+}
+
+.card-face-second {
+    padding: 15px;
+    width: 299px;
+    height: 131px;
+    box-sizing: border-box;
+    background: #FFFFD5;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-face-second>span {
+    width: 112px;
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.card-face-second>img {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 15px;
+}
+
+.interaction-container {
+    width: 270px;
+    height: 37px;
+    margin-top: 26px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.interaction-container>div {
+    width: 84px;
+    height: 36px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.interaction-container>div>span {
+    font-family: 'Recursive';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*Cards*/
+.slogancards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 51px;
+    margin-top: 44px;
+
+}
+
+.slogancards>img {
+    width: 52px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.slogancards>span {
+    width: 204px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+}
+
+.blocked {
+    display: none;
+}
