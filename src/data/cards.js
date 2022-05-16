@@ -48,5 +48,5 @@ export default function getCards() {
             "hiddenAnswer" : "dizer para o React quais informações quando atualizadas devem renderizar a tela novamente",
             "id": "8",
         }
-    ].slice(0, 4)
+    ].sort(() => Math.random() - 0.5)
 }
